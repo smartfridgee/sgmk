@@ -41,6 +41,6 @@ places.forEach(item => {
 const selectPlace = () => {
     selection = select.value;
     if(selection === "null") { return 0; }
-    locationsMap.flyTo(markers[selection].getLatLng(),14);
+    locationsMap.flyTo(markers[selection].getLatLng(),13);
     markers[selection].openPopup();
 }
