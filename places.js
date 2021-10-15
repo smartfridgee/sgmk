@@ -1,0 +1,5 @@
+const places = [
+    {lat: 53.4081, long: 14.7011, img: "https://zdrowetynki.pl/wp-content/uploads/2021/01/placeholder.png", name: "Szczecin Dąbie SDC - wiadukt", grp: "Szczecin Dąbie", comment: "Łatwe wejście na wiadukt z miejscem na samochód w pobliżu. Kadr jednokierunkowy na pociągi w kierunku Goleniowa, najlepiej w pochmurną pogodę."},
+    {lat: 53.3974, long: 14.6890, img: "https://zdrowetynki.pl/wp-content/uploads/2021/01/placeholder.png", name: "Szczecin Dąbie SDC - ścieżka", grp: "Szczecin Dąbie", comment: "Miejscówka na ścieżce, obok drogi. Dojazd samochodem perfekcyjny. <br> od strony Goleniowa: z roku na rok rośnie tam co raz większy drzewokrzak, więc przyda się drabina. Idealne miejsce na zachód słońca w mieście;<br> od Szczecina: Cały czas pod słońce, najlepsza w pochmurne dni. Ewentualnie na zachód (śłońce od boku). Brak przeszkód."},
+    {lat: 53.3941, long: 14.5208, img: "https://zdrowetynki.pl/wp-content/uploads/2021/01/placeholder.png", name: "Szczecin Pomorzany - kładka (Os)", grp: "Szczecin Pomorzany", comment: "Fajna miejscówka na zachodnie i wschodnie zdjęcia ICków. Łatwy i szybki dojazd, miejsce na samochód bez problemu."},
+]
