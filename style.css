@@ -10,6 +10,7 @@ body, html, h1 {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
 }
 
 h1{
@@ -19,12 +20,11 @@ h1{
 
 body {
     min-height: 100vh;
-    overflow-y: hidden;
 }
 
 header{
-    position: absolute;
-    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
     height: 3rem;
     width: 100%;
     display: grid;
@@ -41,10 +41,9 @@ header{
 }
 
 #map-container{
-    height: calc(100vh - 4.5rem);
+    height: calc(100vh - 3rem);
     width: 100%;
     box-sizing: border-box;
-    margin-top: 3rem;
     filter: grayscale(30%);
 }
 
@@ -62,7 +61,7 @@ footer{
 #select{
     outline: none;
     border: none;
-    width: min(30rem, 100%);
+    width: min(30rem, 70%);
     background: var(--main-dark);
     height: 2.2rem;
     border-radius: 1rem;
